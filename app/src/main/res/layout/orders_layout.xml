@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@drawable/button_background">
+
+    <TextView
+        android:id="@+id/order_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="User Name"
+        android:textColor="#2B2828"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/order_Phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Phone Number"
+        android:textColor="#2B2828"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/order_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Total Price"
+        android:textColor="#2B2828"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order_user_name" />
+
+    <TextView
+        android:id="@+id/order_table_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Table No"
+        android:textColor="#2B2828"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/order_total_price"
+        app:layout_constraintStart_toStartOf="@+id/order_total_price"
+        app:layout_constraintTop_toBottomOf="@+id/order_total_price" />
+
+    <TextView
+        android:id="@+id/order_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Date and Time"
+        android:textColor="#2B2828"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/order_table_no"
+        app:layout_constraintStart_toStartOf="@+id/order_table_no"
+        app:layout_constraintTop_toBottomOf="@+id/order_table_no" />
+
+    <TextView
+        android:id="@+id/order_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/order_date_time"
+        app:layout_constraintStart_toStartOf="@+id/order_date_time"
+        app:layout_constraintTop_toBottomOf="@+id/order_date_time" />
+
+    <Button
+        android:id="@+id/show_All_products_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:text="Click here for Order Details"
+        app:layout_constraintEnd_toEndOf="@+id/order_status"
+        app:layout_constraintStart_toStartOf="@+id/order_status"
+        app:layout_constraintTop_toBottomOf="@+id/order_status" />
+
+    <Button
+        android:id="@+id/confirm_order_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_background"
+        android:text="Confirm Order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/show_All_products_btn"
+        app:layout_constraintStart_toStartOf="@+id/show_All_products_btn"
+        app:layout_constraintTop_toBottomOf="@+id/show_All_products_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

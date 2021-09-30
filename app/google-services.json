@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "656130457967",
+    "firebase_url": "https://pizza-shop-2a2ba-default-rtdb.firebaseio.com",
+    "project_id": "pizza-shop-2a2ba",
+    "storage_bucket": "pizza-shop-2a2ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656130457967:android:a779a320df451af7a1a89a",
+        "android_client_info": {
+          "package_name": "com.pizzashop.pizzashopexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656130457967-tjto23j5bkl8p06tvt337abnatctk4co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsxGJXzL3dPYvt48APXLXtzZdYeQDQcqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656130457967-tjto23j5bkl8p06tvt337abnatctk4co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656130457967:android:e42deb14fcdb9e02a1a89a",
+        "android_client_info": {
+          "package_name": "com.prajwal.pizzashopadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656130457967-pu5oct3f9ueotb90stmh10e5huja92m3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prajwal.pizzashopadmin",
+            "certificate_hash": "07d0cdf2ab686b5c19aa798d5bd8f50910a973dd"
+          }
+        },
+        {
+          "client_id": "656130457967-tjto23j5bkl8p06tvt337abnatctk4co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsxGJXzL3dPYvt48APXLXtzZdYeQDQcqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656130457967-tjto23j5bkl8p06tvt337abnatctk4co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
